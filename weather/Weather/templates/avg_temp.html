@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body style="background-color:#fed9ff;">
+        <center>
+        {%if maxTrue%}
+        <form>
+            <h1>Average Maximum Temperature(in Celsius):</h1>
+            <input type='text' value={{a_new}}>
+        </form>
+        {%elif minTrue%}
+       
+        <form>
+            <h1>Average Minimum Temperature(in Celsius)</h1>
+            <input type='text' value={{a_new1}}>
+        </form>
+        {%elif preTrue%}
+       
+        <form>
+            <h1>Sum Of Precipitation(in Centimeter):</h1>
+            <input type='text' value={{a_new2}}>
+        </form>
+        {%endif%}
+    </center>
+    </body>
